@@ -20,18 +20,18 @@ body{
     background-attachment: fixed;
 }
 
-#banner nav{
+#banner nav, #banner-about nav{
     padding:30px 50px;
 }
 
-#banner a{
+#banner a, #banner-about a{
     color:white;
     text-decoration:none;
     font-size:24px;
     padding:0 30px;
 }
 
-#banner a:hover{
+#banner a:hover, #banner-about a:hover {
     opacity: 0.5;
 }
 
@@ -110,4 +110,106 @@ a.button{
     color:	#5B5B5B;
     border: 1px solid #BEBEBE;
     padding:10px 5px;
+}
+
+/* 盒子區塊 */
+
+#box {
+    background-image: url(./img/box.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+#box h2{
+    text-align: center;
+    letter-spacing: 10px;
+    padding-left:10px;
+    color:white;
+    height:300px;
+    line-height:300px;
+
+}
+
+
+/* 關於我分頁 */
+
+#banner-about{
+    width: 100%;
+    height:40vh;
+    background-image: url(./img/about.jpg);
+    background-size: cover;
+    background-position-y: center;
+    color:	white;
+    background-attachment: fixed;
+}
+
+#about-content{
+    width:1200px;
+    background-color: #fff;
+    margin:0 auto;
+    padding:50px 50px;
+    border-radius: 10px;
+    margin-top:100px;
+}
+
+#about-content h3{
+    text-align: center;
+    padding:10px 0;
+    color:#4F4F4F;
+    
+}
+
+#about-content h1{
+    text-align: center;
+    padding:10px 0;
+    padding-bottom:50px;
+}
+
+#about-content hr{
+    width:300px;
+    margin:0 auto;
+}
+
+#banner-about nav{
+    backdrop-filter: opacity(40%);
+}
+
+#banner-about h2{
+    text-align: center;
+    font-weight:100;
+    font-size: 35pt;
+    letter-spacing: 10px;
+    padding-left: 20px;
+    line-height: 20vh;
+    backdrop-filter: opacity(40%);
+    height:30vh;
+
+}
+
+#about-content #about-1 {
+    background-image: url(./img/about-1.jpg);
+    background-size:cover;
+    background-position-y: center;
+    height:400px;
+}
+
+#about-content #about-2 {
+    background-image: url(./img/about-2.jpg);
+    background-size:cover;
+    background-position-y: center;
+    height:400px;
+}
+
+#about-content #about-3 {
+    background-image: url(./img/about-3.jpg);
+    background-size:cover;
+    background-position-y: center;
+    height:400px;
+}
+
+#about-content p{
+    padding:50px;
+    line-height:2;
+    color:#6C6C6C;
 }
